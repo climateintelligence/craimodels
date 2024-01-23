@@ -1,6 +1,6 @@
  HadCRUT5:
   dataset_name: HadCRUT5
-  file: https://www.metoffice.gov.uk/hadobs/hadcrut5/data/current/non-infilled/HadCRUT.5.0.1.0.anomalies.ensemble_mean.nc
+  file: https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.0.2.0/non-infilled/HadCRUT.5.0.2.0.anomalies.ensemble_mean.nc
   variable_name: tas_mean
   eval_parameters:
      --model-names 20crtasgn72.pth
