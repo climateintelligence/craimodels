@@ -1,5 +1,8 @@
  HadCRUT5:
   dataset_name: HadCRUT5
+  description: |
+    HadCRUT5 Training dataset: 82133 samples of near surface temperature anomalies from the 20th century reanalysis dataset (https://psl.noaa.gov/data/20thC_Rean/) spanning the period 1870-2009.
+    Mask dataset: masks of missing values extracted from the HadCRUT4 dataset for the period 1850-2014.
   file: https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.0.2.0/non-infilled/HadCRUT.5.0.2.0.anomalies.ensemble_mean.nc
   variable_name: tas_mean
   eval_parameters:
@@ -13,6 +16,9 @@
 
  HadCRUT4:
   dataset_name: HadCRUT4
+  description: |
+    HadCRUT4 Training dataset: 82133 samples of near surface temperature anomalies from the 20th century reanalysis dataset (https://psl.noaa.gov/data/20thC_Rean/) spanning the period 1870-2009.
+    Mask dataset: masks of missing values extracted from the HadCRUT4 dataset for the period 1850-2014.
   file: https://www.metoffice.gov.uk/hadobs/hadcrut4/data/current/gridded_fields/HadCRUT.4.6.0.0.median_netcdf.zip
   variable_name: temperature_anomaly
   eval_parameters:
